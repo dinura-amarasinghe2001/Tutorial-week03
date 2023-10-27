@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85ad3e7a-a648-4f2b-a826-ea11d0cd6ac6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tutorialweek03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IdentifyVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    <list default="true" id="85ad3e7a-a648-4f2b-a826-ea11d0cd6ac6" name="Changes" comment="Adding Files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +60,18 @@
       <option name="presentableId" value="Default" />
       <updated>1698154123916</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding Files">
+      <created>1698335719259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698335719259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Files" />
   </component>
 </project>

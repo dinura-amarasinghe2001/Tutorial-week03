@@ -3,12 +3,30 @@ public class Date {
    private   int Month;
     private int Year;
 
-    public Date(int day,int month , int year){
-        Day = day;
-        Month = month;
-        Year = year;
-    }
 
+
+    public Date(int day, int month , int year) {
+        Day = day;
+        if (day > 32 || day <= 0) {
+            System.out.println("wrong day");
+
+        }
+
+        Month = month;
+
+        if (month < 0 || month >= 13) {
+            System.out.println("wrong month");
+
+        }
+
+
+        Year = year;
+        if (year < 1900 || year >= 2079) {
+            System.out.println("wrong year");
+
+        }
+
+    }
     public int getDay() {
         return Day;
     }

@@ -4,9 +4,17 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
+        IdentifyVariables a = new IdentifyVariables();
+        IdentifyVariables b =new IdentifyVariables();
+        a.y = 5;b.y = 6;a.x = 1;b.x = 2;
+        System.out.println("a.y = " + a.y);
+        System.out.println("b.y = " + b.y);
+        System.out.println("a.x = " + a.x);
+        System.out.println("b.x = " + b.x);
+        System.out.println("IdentifyVariables.x = " + IdentifyVariables.x);
 Director director = new Director("james","Cameron");
-Date dob = new Date(16,8,1954);
-director.setDoB(dob);
+        Date dob = new Date(16,8,1954);
+        director.setDoB(dob);
 director.setNumberofMovie(23);
         System.out.println(director);
         System.out.println("name is"+director.getName());
@@ -26,32 +34,10 @@ director.setNumberofMovie(23);
 
             Scanner input = new Scanner(System.in);
 
-while (true) {
-
-    System.out.println("Enter the day ");
-    int day = input.nextInt();
-if(day>32 || day<=0){
-    System.out.println("wrong day");
-    continue;
-}
-
-    System.out.println("Enter the month ");
-    int month = input.nextInt();
-    if (month<0 || month>=13){
-        System.out.println("wrong month");
-        continue;
-    }
 
 
-    System.out.println("Enter the year ");
-    int year = input.nextInt();
-    if(year<1900 || year>=2079){
-        System.out.println("wrong year");
-        continue;
-    }
 
 
-    Date dob2 = new Date(day, month, year);
 
 }
 
@@ -72,4 +58,4 @@ if(day>32 || day<=0){
 }
 
 
-    }
+
